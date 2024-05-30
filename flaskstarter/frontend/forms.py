@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
-from flask import Markup
+from markupsafe import Markup
 
 from flask_wtf import FlaskForm
 from wtforms import (ValidationError, HiddenField, BooleanField, StringField,
